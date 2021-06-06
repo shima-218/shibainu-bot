@@ -105,6 +105,7 @@ dependencies {
     implementation 'com.linecorp.bot:line-bot-spring-boot:3.5.0'
     implementation "org.springframework.boot:spring-boot-starter-web"
     implementation 'com.google.guava:guava'
+    implementation group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.13'
     testImplementation 'com.google.guava:guava'
     testImplementation 'com.github.stefanbirkner:system-rules'
     testImplementation 'com.squareup.okhttp3:mockwebserver'
