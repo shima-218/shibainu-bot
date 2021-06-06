@@ -292,7 +292,6 @@ public class SampleController {
             case "出ておいで！":
             	//API
             	String url = api.obtainShibainuImage();
-            	System.out.println("ここ"+url);
                 this.reply(replyToken, ImageMessage
                         .builder()
                         .originalContentUrl(URI.create(url))
